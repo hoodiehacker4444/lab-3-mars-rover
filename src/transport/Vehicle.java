@@ -23,7 +23,6 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return ("Vehicle is at x-position: " + getxPosition() + " and y-position: " + getyPosition());
     }
 
@@ -43,6 +42,5 @@ public class Vehicle {
         System.out.println(" Vehicle constructor");
     }
     public static void main(String[] args) {
-        //Vehicle v = new Vehicle();
        }
 }
