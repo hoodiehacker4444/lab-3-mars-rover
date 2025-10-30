@@ -15,3 +15,13 @@ In order to run this simulation, navigate to the runsimulation.java file, and hi
     position = -1000 meters. The program then counts how many times our Rover fell 
     out of N_SIMULATIONS, and reports it (our goal is that it falls 0 times)
     If we meet our goal, the program prints that our rover is ready to go to Mars!!
+
+# How to run
+
+Make sure you've installed `gradle` - pretty typical for a Java repo.
+
+To build:
+```gradle build```
+
+To run:
+```gradle run```

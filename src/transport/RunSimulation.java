@@ -23,7 +23,6 @@ public class RunSimulation {
                 fallCount += 1;
             }
             if (myDamagedRover.getMetersTraveled() >= MAX_TRAVEL_METERS_BEFORE_EMPTY_BATTERY) {
-                // System.out.println("No more power.");
             }
         }
         System.out.println("We tested our Rover for " + N_SIMULATIONS + " simulations.");
